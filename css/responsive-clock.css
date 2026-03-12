@@ -135,14 +135,14 @@
     right: 9px;
   }
   .flipTimebox .flip-clock-wrapper ul.flip {
-    width: 25px;
+    width: 22px;
     margin-left: -14px;
   }
   .flipTimebox .flip-clock-wrapper {
     padding-left: 5px;
   }
   .flipTimebox .flip-clock-wrapper ul li {
-    width: 25px;
+    width: 22px;
   }
   .flipTimebox .flip-clock-dot {
     margin-left: -16px;
@@ -156,11 +156,11 @@
     padding-left: 5px;
   }
   .flipTimebox .flip-clock-wrapper ul.flip {
-    width: 22px;
+    width: 20px;
     margin-left: -16px;
   }
   .flipTimebox .flip-clock-wrapper ul li {
-    width: 22px;
+    width: 20px;
   }
   .flipTimebox .flip-clock-dot {
     margin-left: -18px;
@@ -180,7 +180,7 @@
 }
 
 .flip-clock-wrapper {
-  margin: 4em !important;
+  margin: 1em !important;
 }
 
 .flip-clock-divider .flip-clock-label {
