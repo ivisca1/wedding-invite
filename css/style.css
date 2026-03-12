@@ -1842,3 +1842,27 @@ form label {
   background-color: #ff4757;
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 480px) {
+  #fh5co-event .col-md-6,
+  #fh5co-event .col-sm-6 {
+    width: 100% !important;  /* kolone idu full width */
+    float: none !important;   /* uklanja float da centriraju karticu */
+    padding: 0 10px;          /* smanji padding */
+  }
+
+  #fh5co-event .event-wrap {
+    width: 100% !important;   /* full width za event-wrap */
+    padding: 10px !important; /* manje paddinga na malim ekranima */
+    box-sizing: border-box;   /* da padding ne “poveća” width */
+  }
+
+  #fh5co-event .display-tc {
+    display: block !important; /* uklanja table layout */
+    height: auto !important;    /* visina automatski prema sadržaju */
+  }
+
+  #fh5co-event .display-t {
+    height: auto !important;
+  }
+}
